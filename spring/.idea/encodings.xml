@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-5/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-MockDB/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-MockDB/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-Swagger-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-Spring-Boot-Swagger-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-CRUD/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-CRUD/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-DependencyInjection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-DependencyInjection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-Hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-Hibernate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-Swagger-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-SpringBoot-Swagger-1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-noSQL-ORM-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-springRepositories-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-springRepositories-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercise-springRepositories-2/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

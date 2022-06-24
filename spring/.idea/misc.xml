@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/exercise-noSQL-ORM-1/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-SpringBoot-CRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-Spring-Boot-MockDB/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-SpringBoot-Hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-SpringBoot-Swagger-1/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-springRepositories-1/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-springRepositories-2/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-Spring-Boot-Swagger-2/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-1/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-2/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-3/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-4/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-5/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-SpringBoot-DependencyInjection/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-1/Exercise-Spring-Boot-FirstAPI-1.iml" filepath="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-1/Exercise-Spring-Boot-FirstAPI-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-2/Exercise-Spring-Boot-FirstAPI-2.iml" filepath="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-2/Exercise-Spring-Boot-FirstAPI-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-3/Exercise-Spring-Boot-FirstAPI-3.iml" filepath="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-3/Exercise-Spring-Boot-FirstAPI-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-4/Exercise-Spring-Boot-FirstAPI-4.iml" filepath="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-4/Exercise-Spring-Boot-FirstAPI-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-5/Exercise-Spring-Boot-FirstAPI-5.iml" filepath="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-5/Exercise-Spring-Boot-FirstAPI-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-Spring-Boot-Swagger-2/Exercise-Spring-Boot-Swagger-2.iml" filepath="$PROJECT_DIR$/exercise-Spring-Boot-Swagger-2/Exercise-Spring-Boot-Swagger-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-SpringBoot-DependencyInjection/Exercise-SpringBoot-DependencyInjection.iml" filepath="$PROJECT_DIR$/exercise-SpringBoot-DependencyInjection/Exercise-SpringBoot-DependencyInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-SpringBoot-Swagger-1/Exercise-SpringBoot-Swagger-1.iml" filepath="$PROJECT_DIR$/exercise-SpringBoot-Swagger-1/Exercise-SpringBoot-Swagger-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-Spring-Boot-MockDB/exercise-Spring-Boot-MockDB.iml" filepath="$PROJECT_DIR$/exercise-Spring-Boot-MockDB/exercise-Spring-Boot-MockDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-SpringBoot-CRUD/exercise-SpringBoot-CRUD.iml" filepath="$PROJECT_DIR$/exercise-SpringBoot-CRUD/exercise-SpringBoot-CRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-SpringBoot-Hibernate/exercise-SpringBoot-Hibernate.iml" filepath="$PROJECT_DIR$/exercise-SpringBoot-Hibernate/exercise-SpringBoot-Hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-noSQL-ORM-1/exercise-noSQL-ORM-1.iml" filepath="$PROJECT_DIR$/exercise-noSQL-ORM-1/exercise-noSQL-ORM-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-springRepositories-1/exercise-springRepositories-1.iml" filepath="$PROJECT_DIR$/exercise-springRepositories-1/exercise-springRepositories-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-springRepositories-2/exercise-springRepositories-2.iml" filepath="$PROJECT_DIR$/exercise-springRepositories-2/exercise-springRepositories-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
+    </modules>
+  </component>
+</project>
