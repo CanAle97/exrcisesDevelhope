@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="exerciseInterceptorsMiddleware1" />
         <module name="exercise-SpringBoot-Hibernate" />
         <module name="exercise-Spring-Boot-MockDB" />
+        <module name="exerciseInterceptorsMiddleware2" />
         <module name="exercise-SpringBoot-CRUD" />
         <module name="Exercise-Spring-Boot-FirstAPI-2" />
         <module name="Exercise-Spring-Boot-FirstAPI-1" />
@@ -15,6 +17,8 @@
         <module name="exercise-springRepositories-1" />
         <module name="Exercise-SpringBoot-Swagger-1" />
         <module name="Exercise-Spring-Boot-Swagger-2" />
+        <module name="exercise-EnvironmentsVariables-1" />
+        <module name="exercise-EnvironmentsVariables-2" />
         <module name="Exercise-Spring-Boot-FirstAPI-4" />
         <module name="Exercise-Spring-Boot-FirstAPI-3" />
         <module name="exercise-noSQL-ORM-1" />
@@ -23,6 +27,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="exercise-EnvironmentsVariables-1" target="18" />
+      <module name="exercise-EnvironmentsVariables-2" target="18" />
       <module name="exercise-noSQL-ORM-1" target="17" />
       <module name="Exercise-Spring-Boot-FirstAPI-1" target="17" />
       <module name="Exercise-Spring-Boot-FirstAPI-2" target="17" />
@@ -37,6 +43,8 @@
       <module name="Exercise-SpringBoot-Swagger-1" target="17" />
       <module name="exercise-springRepositories-1" target="17" />
       <module name="exercise-springRepositories-2" target="17" />
+      <module name="exerciseInterceptorsMiddleware1" target="17" />
+      <module name="exerciseInterceptorsMiddleware2" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,12 +57,16 @@
       <module name="Exercise-Spring-Boot-Swagger-2" options="-parameters" />
       <module name="Exercise-SpringBoot-DependencyInjection" options="-parameters" />
       <module name="Exercise-SpringBoot-Swagger-1" options="-parameters" />
+      <module name="exercise-EnvironmentsVariables-1" options="-parameters" />
+      <module name="exercise-EnvironmentsVariables-2" options="-parameters" />
       <module name="exercise-Spring-Boot-MockDB" options="-parameters" />
       <module name="exercise-SpringBoot-CRUD" options="-parameters" />
       <module name="exercise-SpringBoot-Hibernate" options="-parameters" />
       <module name="exercise-noSQL-ORM-1" options="-parameters" />
       <module name="exercise-springRepositories-1" options="-parameters" />
       <module name="exercise-springRepositories-2" options="-parameters" />
+      <module name="exerciseInterceptorsMiddleware1" options="-parameters" />
+      <module name="exerciseInterceptorsMiddleware2" options="-parameters" />
     </option>
   </component>
 </project>
