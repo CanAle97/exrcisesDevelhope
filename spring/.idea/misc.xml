@@ -10,8 +10,6 @@
         <option value="$PROJECT_DIR$/exercise-SpringBoot-Swagger-1/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-springRepositories-1/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-springRepositories-2/pom.xml" />
-        <option value="$PROJECT_DIR$/Deploy-EnvironmentsVariables01/pom.xml" />
-        <option value="$PROJECT_DIR$/Deploy-EnvironmentsVariables02/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-Spring-Boot-Swagger-2/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-1/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-2/pom.xml" />
@@ -20,6 +18,8 @@
         <option value="$PROJECT_DIR$/exercise-Spring-Boot-FirstAPI-5/pom.xml" />
         <option value="$PROJECT_DIR$/exerciseInterceptorsMiddleware1/pom.xml" />
         <option value="$PROJECT_DIR$/exerciseInterceptorsMiddleware2/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-EnvironmentsVariables-1/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise-EnvironmentsVariables-2/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-SpringBoot-DependencyInjection/pom.xml" />
       </list>
     </option>
