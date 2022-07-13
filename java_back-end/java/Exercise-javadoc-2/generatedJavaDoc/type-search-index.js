@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"it.develhope.javadoc2","l":"ArithmeticOperators"},{"p":"it.develhope.javadoc2","l":"Tester"}]

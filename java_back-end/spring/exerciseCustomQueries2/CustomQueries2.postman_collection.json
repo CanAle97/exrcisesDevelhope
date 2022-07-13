@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "acba39b9-5c25-4d21-a304-2e6a025dad44",
+		"name": "CustomQueries2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FlightsProvisioningDefault100",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"add"
+					]
+				}
+			},
+			"response": ["100 flights added", 200]
+		},
+		{
+			"name": "FlightsProvisioning49",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/add/49",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"add",
+						"{n}"
+					],
+					"query": [
+						{
+							"key": "n",
+							"value": "49"
+						}
+					]
+				}
+			},
+			"response": ["49 flights added", 200]
+		},
+		{
+			"name": "GetAllFlightsWithPaginationAsc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/all/fromAirport/asc/0/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"all",
+						"fromAirport",
+						"asc",
+						"{page}",
+						"{size}"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": ["content : [{id: 640, description: YMrWvXXbjqP0WaUkD, fromAirport: 05BT9tLq, toAirport: FHwfE4fC, status: ON_TIME}...]",
+				"pageable:{",
+					"sort:{",
+						"empty:", "false",
+						"sorted:", "true",
+						"unsorted:", "false}",
+					"offset:", 0,
+					"pageNumber:", 0,
+					"pageSize:", 100,
+					"unpaged:", "false",
+					"paged:", "true}",
+				"totalPages:", 8,
+				"totalElements:", 749,
+				"last:", "false",
+				"size:", 100,
+				"number:", 0,
+				"sort:{",
+					"empty:", "false",
+					"sorted:", "true",
+					"unsorted:", "false}",
+				"numberOfElements:", 100,
+				"first:", "true",
+				"empty:", "false}",
+				200]
+		},
+		{
+			"name": "GetAllFlightsWithPaginationByStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/all/ON_TIME/0/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"all",
+						"{status}",
+						"{page}",
+						"{size}"
+					],
+					"query": [
+						{
+							"Key": "status",
+							"value": "ON_TIME"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": ["content : [{id: 1, description: YMrWvXXbjqP0WaUkD, fromAirport: 05BT9tLq, toAirport: FHwfE4fC, status: ON_TIME}...]",
+				"pageable:{",
+				"sort:{",
+				"empty:", "true",
+				"sorted:", "false",
+				"unsorted:", "true}",
+				"offset:", 0,
+				"pageNumber:", 0,
+				"pageSize:", 100,
+				"unpaged:", "false",
+				"paged:", "true}",
+				"totalPages:", 3,
+				"totalElements:", 202,
+				"last:", "false",
+				"size:", 100,
+				"number:", 0,
+				"sort:{",
+				"empty:", "true",
+				"sorted:", "false",
+				"unsorted:", "true}",
+				"numberOfElements:", 100,
+				"first:", "true",
+				"empty:", "false}",
+				200]
+		},
+		{
+			"name": "CustomQueryDelayedOrCancelled",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/all/DELAYED/CANCELLED",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"all",
+						"{p1}",
+						"{p2}"
+					],
+					"query": [
+						{
+							"key": "p1",
+							"value": "DELAYED"
+						},
+						{
+							"key": "p2",
+							"value": "CANCELLED"
+						}
+					]
+				}
+			},
+			"response": ["content : [{id: 5, description: YMrWvXXbjqP0WaUkD, fromAirport: 05BT9tLq, toAirport: FHwfE4fC, status: CANCELLED}...]",
+				"pageable:{",
+				"sort:{",
+				"empty:", "true",
+				"sorted:", "false",
+				"unsorted:", "true}",
+				"offset:", 0,
+				"pageNumber:", 0,
+				"pageSize:", 50,
+				"unpaged:", "false",
+				"paged:", "true}",
+				"totalPages:", 8,
+				"totalElements:", 398,
+				"last:", "false",
+				"size:", 50,
+				"number:", 0,
+				"sort:{",
+				"empty:", "true",
+				"sorted:", "false",
+				"unsorted:", "true}",
+				"numberOfElements:", 50,
+				"first:", "true",
+				"empty:", "false}",
+				200]
+		},
+		{
+			"name": "CustomQueryOnTimeOrDelayed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/all/ON_TIME/DELAYED",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"all",
+						"{p1}",
+						"{p2}"
+					],
+					"query": [
+						{
+							"key": "p1",
+							"value": "ONTIME"
+						},
+						{
+							"key": "p2",
+							"value": "DELAYED"
+						}
+					]
+				}
+			},
+			"response": ["content : [{id: 5, description: YMrWvXXbjqP0WaUkD, fromAirport: 05BT9tLq, toAirport: FHwfE4fC, status: CANCELLED}...]",
+				"pageable:{",
+				"sort:{",
+				"empty:", "true",
+				"sorted:", "false",
+				"unsorted:", "true}",
+				"offset:", 0,
+				"pageNumber:", 0,
+				"pageSize:", 50,
+				"unpaged:", "false",
+				"paged:", "true}",
+				"totalPages:", 8,
+				"totalElements:", 398,
+				"last:", "false",
+				"size:", 50,
+				"number:", 0,
+				"sort:{",
+				"empty:", "true",
+				"sorted:", "false",
+				"unsorted:", "true}",
+				"numberOfElements:", 50,
+				"first:", "true",
+				"empty:", "false}",
+				200]
+		}
+	]
+}

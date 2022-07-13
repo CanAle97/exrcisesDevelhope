@@ -1,0 +1,402 @@
+{
+	"info": {
+		"_postman_id": "81b56b65-46e3-44c8-8c38-f6d178696db8",
+		"name": "CustomQueries1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddFlights",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"add"
+					]
+				}
+			},
+			"response": ["50 flights added", 200]
+		},
+		{
+			"name": "GetAllFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"all"
+					]
+				}
+			},
+			"response": [
+				[
+					{
+						"id": 1,
+						"description": "2i5tGICUnR4gY",
+						"fromAirport": "4chX6tgN6U7Vt",
+						"toAirport": "AXNO8j4t1SCjw",
+						"status": "ONTIME"
+					},
+					{
+						"id": 2,
+						"description": "A0beAhvD0ARPV",
+						"fromAirport": "81c077BaPGmss",
+						"toAirport": "lROwz8qi8Efjy",
+						"status": "ONTIME"
+					},
+					{
+						"id": 3,
+						"description": "Nw2I9IZ855Cw5",
+						"fromAirport": "tFpxlI8xgOCDl",
+						"toAirport": "WoIO59UQevAjK",
+						"status": "ONTIME"
+					},
+					{
+						"id": 4,
+						"description": "tTB57EdMEbldH",
+						"fromAirport": "POeko9id8VkZv",
+						"toAirport": "pbfDCeJizGT6l",
+						"status": "ONTIME"
+					},
+					{
+						"id": 5,
+						"description": "Cm4X0KwFJZp7h",
+						"fromAirport": "suYy0L9lZb9F7",
+						"toAirport": "BxFTgs1Bvw3K9",
+						"status": "ONTIME"
+					},
+					{
+						"id": 6,
+						"description": "OV5kRyOZ2BXLU",
+						"fromAirport": "DBw8vVEy2pbqT",
+						"toAirport": "PHF5RlkIWBhYd",
+						"status": "ONTIME"
+					},
+					{
+						"id": 7,
+						"description": "kGAaEqiwmYm1F",
+						"fromAirport": "VXLOgtTia6uCT",
+						"toAirport": "VGejV4n4Ni1rW",
+						"status": "ONTIME"
+					},
+					{
+						"id": 8,
+						"description": "qW4kpqsXKbd1g",
+						"fromAirport": "onb01LhkKAjDV",
+						"toAirport": "5jmj7FrG3uSjU",
+						"status": "ONTIME"
+					},
+					{
+						"id": 9,
+						"description": "E0uKuPDK4c9qb",
+						"fromAirport": "M1FDwVIhvohPI",
+						"toAirport": "kHWlH8VB2SyZ4",
+						"status": "ONTIME"
+					},
+					{
+						"id": 10,
+						"description": "N7b7eccn0iSpm",
+						"fromAirport": "N2qmXzSAc7WBb",
+						"toAirport": "M370R5YQeiOtk",
+						"status": "ONTIME"
+					},
+					{
+						"id": 11,
+						"description": "85NjMMKwkAGRO",
+						"fromAirport": "Im42N6A5QTRKz",
+						"toAirport": "a8HusEqBakzce",
+						"status": "ONTIME"
+					},
+					{
+						"id": 12,
+						"description": "opw8TaZTQakKB",
+						"fromAirport": "732JtOaLuCjwT",
+						"toAirport": "1KWuBh1hesbxZ",
+						"status": "ONTIME"
+					},
+					{
+						"id": 13,
+						"description": "9QgI396PgMy8e",
+						"fromAirport": "RXxarN7S11Z4A",
+						"toAirport": "ZSEk5cOduEfaf",
+						"status": "ONTIME"
+					},
+					{
+						"id": 14,
+						"description": "W1xAENjEVcmbq",
+						"fromAirport": "nPQWYQDleOaEc",
+						"toAirport": "pDftejIckPN02",
+						"status": "ONTIME"
+					},
+					{
+						"id": 15,
+						"description": "8dTYROCWJbnVt",
+						"fromAirport": "ISbU3gfJFiNDY",
+						"toAirport": "V1YpLrJrZdmzu",
+						"status": "ONTIME"
+					},
+					{
+						"id": 16,
+						"description": "9d77LZnydedeK",
+						"fromAirport": "xxw0JIRteqUPb",
+						"toAirport": "VC24T8sQAoL4L",
+						"status": "ONTIME"
+					},
+					{
+						"id": 17,
+						"description": "6KffVZ67iPwOk",
+						"fromAirport": "MhrT231YImTH4",
+						"toAirport": "ng60N4LqYDxiV",
+						"status": "ONTIME"
+					},
+					{
+						"id": 18,
+						"description": "a1KuuWknatPiE",
+						"fromAirport": "gJpenF0JULQ49",
+						"toAirport": "ztRyZUdoU5cOS",
+						"status": "ONTIME"
+					},
+					{
+						"id": 19,
+						"description": "hIdNG08SPSyS2",
+						"fromAirport": "CEQhJd7qazbl2",
+						"toAirport": "HZdg3slQDJrcX",
+						"status": "ONTIME"
+					},
+					{
+						"id": 20,
+						"description": "qv2ODGxVpSQFk",
+						"fromAirport": "68qSPtXq7Es2h",
+						"toAirport": "xYM9ILfXtbeA1",
+						"status": "ONTIME"
+					},
+					{
+						"id": 21,
+						"description": "ty6t1JFKHmfMR",
+						"fromAirport": "HUg5DSsj7Wa35",
+						"toAirport": "Vrcru1IxKh4v5",
+						"status": "ONTIME"
+					},
+					{
+						"id": 22,
+						"description": "0eCrFu15C0CfU",
+						"fromAirport": "voAxwcnweUYMK",
+						"toAirport": "749Ri5X4YRemq",
+						"status": "ONTIME"
+					},
+					{
+						"id": 23,
+						"description": "wUikb1NbfvRTk",
+						"fromAirport": "mkCTYYsCJvLIO",
+						"toAirport": "PkgVjxBzSV6yf",
+						"status": "ONTIME"
+					},
+					{
+						"id": 24,
+						"description": "HyZIwPlxXiBF8",
+						"fromAirport": "UjdT0VxU2Wg76",
+						"toAirport": "y6xZmNUzKvekD",
+						"status": "ONTIME"
+					},
+					{
+						"id": 25,
+						"description": "vyimSmjEw31pK",
+						"fromAirport": "3g0Gg4PFi8rax",
+						"toAirport": "3sQyvXDJc2ulo",
+						"status": "ONTIME"
+					},
+					{
+						"id": 26,
+						"description": "DWFLOivYgOh1O",
+						"fromAirport": "Dx74PIy1sKcYu",
+						"toAirport": "MSsCZtJulFtyd",
+						"status": "ONTIME"
+					},
+					{
+						"id": 27,
+						"description": "WXsAglJwA0BJo",
+						"fromAirport": "L4MkHX7uErlsY",
+						"toAirport": "1HqyzifRSpJHe",
+						"status": "ONTIME"
+					},
+					{
+						"id": 28,
+						"description": "Y0ayH1sxBAUFu",
+						"fromAirport": "41vHF3vMWNaFn",
+						"toAirport": "c0vnHssWFef97",
+						"status": "ONTIME"
+					},
+					{
+						"id": 29,
+						"description": "oDd6lEEFaLEWu",
+						"fromAirport": "Mt313PZpWIw7f",
+						"toAirport": "uHc2LPCQ30qQh",
+						"status": "ONTIME"
+					},
+					{
+						"id": 30,
+						"description": "4CFuiEda4Ylib",
+						"fromAirport": "nh71l8PJCkswe",
+						"toAirport": "oba7wzIfkP2pu",
+						"status": "ONTIME"
+					},
+					{
+						"id": 31,
+						"description": "9WLbGKVhid8Va",
+						"fromAirport": "equ02DXRxtkdb",
+						"toAirport": "voTO67f6CMVjA",
+						"status": "ONTIME"
+					},
+					{
+						"id": 32,
+						"description": "9ZbKHUuFOqG7F",
+						"fromAirport": "9QhMFXsyERGYN",
+						"toAirport": "Ra3JLjFxVy4bn",
+						"status": "ONTIME"
+					},
+					{
+						"id": 33,
+						"description": "7atXx6o0KdDZa",
+						"fromAirport": "h3xbrni9T2SLU",
+						"toAirport": "LH51h0g3aHqA9",
+						"status": "ONTIME"
+					},
+					{
+						"id": 34,
+						"description": "6uSP1hiqRP4l2",
+						"fromAirport": "yQfzIlZKgpP3M",
+						"toAirport": "IYlS9IJtOwwKo",
+						"status": "ONTIME"
+					},
+					{
+						"id": 35,
+						"description": "i4O6rnN92w07K",
+						"fromAirport": "KNvKcruI4ATTt",
+						"toAirport": "YI18KCrlqg5XD",
+						"status": "ONTIME"
+					},
+					{
+						"id": 36,
+						"description": "kJeqH8bTRZfGB",
+						"fromAirport": "23l3IM9tss1Jz",
+						"toAirport": "93fKdCvQlwwNP",
+						"status": "ONTIME"
+					},
+					{
+						"id": 37,
+						"description": "N6AM8iTc58Ow0",
+						"fromAirport": "UUfA5UtLeBBaC",
+						"toAirport": "1box4oxn8H0RH",
+						"status": "ONTIME"
+					},
+					{
+						"id": 38,
+						"description": "9IQ8LQnSQZEzx",
+						"fromAirport": "sd98khk8R0nJN",
+						"toAirport": "LeovbXtew2buB",
+						"status": "ONTIME"
+					},
+					{
+						"id": 39,
+						"description": "8SUeUKi3FIJDn",
+						"fromAirport": "wRawtcA7vDVhS",
+						"toAirport": "qXiiXzEyrSatE",
+						"status": "ONTIME"
+					},
+					{
+						"id": 40,
+						"description": "KCkFQnjPC5aXx",
+						"fromAirport": "BoSMb6gAnMOXu",
+						"toAirport": "PKEmI8JRc07G6",
+						"status": "ONTIME"
+					},
+					{
+						"id": 41,
+						"description": "2A9NFyu3EX6bX",
+						"fromAirport": "xUfPXDIjq1PDE",
+						"toAirport": "3gEAfMHtMtgDT",
+						"status": "ONTIME"
+					},
+					{
+						"id": 42,
+						"description": "Hg8s2h1X9TxGk",
+						"fromAirport": "64TXWONPJx6Vw",
+						"toAirport": "xqdJJUZAesqXt",
+						"status": "ONTIME"
+					},
+					{
+						"id": 43,
+						"description": "WhYSjUQk6wKia",
+						"fromAirport": "r2d6zf8MtNWlH",
+						"toAirport": "vCav7QpuDNU6W",
+						"status": "ONTIME"
+					},
+					{
+						"id": 44,
+						"description": "gLciKa1hEvZFT",
+						"fromAirport": "ZLvR0eye5nP3w",
+						"toAirport": "0bcE1Azt19JZv",
+						"status": "ONTIME"
+					},
+					{
+						"id": 45,
+						"description": "b1iEzomoE9UFx",
+						"fromAirport": "OvVWsLuBOe0pE",
+						"toAirport": "6MhM0n9I0SbUg",
+						"status": "ONTIME"
+					},
+					{
+						"id": 46,
+						"description": "6mJlCwnmwme92",
+						"fromAirport": "F0Yc7VeN7ihWs",
+						"toAirport": "iB22SVIkF5zvh",
+						"status": "ONTIME"
+					},
+					{
+						"id": 47,
+						"description": "qDRtab5or6gBB",
+						"fromAirport": "rfEdp1pVvNA1C",
+						"toAirport": "8ww7RffubRS2T",
+						"status": "ONTIME"
+					},
+					{
+						"id": 48,
+						"description": "aTwmpJlXIOIEa",
+						"fromAirport": "uwvZhzizEba4s",
+						"toAirport": "OOs9V5zJfDkJm",
+						"status": "ONTIME"
+					},
+					{
+						"id": 49,
+						"description": "MVIZ8HZKLqa5p",
+						"fromAirport": "ruppluPoNo6YU",
+						"toAirport": "Vd82uH8WeIqnl",
+						"status": "ONTIME"
+					},
+					{
+						"id": 50,
+						"description": "Asurb4VLB5djg",
+						"fromAirport": "mwSEpyh1iDwNb",
+						"toAirport": "3oY6XXQ3iwhLv",
+						"status": "ONTIME"
+					}
+				], 200
+			]
+		}
+	]
+}
